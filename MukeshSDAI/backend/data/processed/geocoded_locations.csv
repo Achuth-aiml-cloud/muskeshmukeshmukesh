@@ -1,0 +1,101 @@
+location,geocoded,latitude,longitude,full_address
+India,True,22.3511148,78.6677428,India
+"London, England",True,51.4893335,-0.1440551,"London, Greater London, England, United Kingdom"
+"New Delhi, India",True,28.6419258,77.2217499,"New Delhi, Foot Over Bridge 3, New Delhi Railway Station, Karol Bagh Tehsil, Central Delhi, Delhi, 110055, India"
+United Kingdom,True,54.7023545,-3.2765753,United Kingdom
+London,True,51.5074456,-0.1277653,"London, Greater London, England, United Kingdom"
+United States,True,39.7837304,-100.445882,United States of America
+"Mumbai, India",True,19.054999,72.8692035,"Mumbai, Mumbai Suburban, Maharashtra, India"
+"Lagos, Nigeria",True,6.4550575,3.3941795,"Lagos, Lagos Island, Lagos, 100242, Nigeria"
+UK,True,54.7023545,-3.2765753,United Kingdom
+Nigeria,True,9.6000359,7.9999721,Nigeria
+South Africa,True,-28.8166236,24.991639,South Africa
+New Delhi,True,28.6419258,77.2217499,"New Delhi, Foot Over Bridge 3, New Delhi Railway Station, Karol Bagh Tehsil, Central Delhi, Delhi, 110055, India"
+"Johannesburg, South Africa",True,-26.205,28.049722,"Johannesburg, City of Johannesburg Metropolitan Municipality, Gauteng, 2001, South Africa"
+"Bhubaneshwar, India",True,20.2602964,85.8394521,"Bhubaneswar, Bhubaneswar Municipal Corporation, Bhubaneswar (M.Corp.), Khordha, Odisha, 751001, India"
+Worldwide,True,-33.8938107,151.2621478,"Worldwide, 117, Bondi Road, Bondi, Eastern Suburbs, Sydney, Waverley Council, New South Wales, 2026, Australia"
+Switzerland,True,46.7985624,8.2319736,Schweiz/Suisse/Svizzera/Svizra
+"California, USA",True,36.7014631,-118.755997,"California, United States of America"
+"Nairobi, Kenya",True,-1.3026148,36.828842,"Nairobi, Kenya"
+Mumbai,True,19.054999,72.8692035,"Mumbai, Mumbai Suburban, Maharashtra, India"
+"Chennai, India",True,13.0836939,80.270186,"Chennai Corporation, Chennai, Tamil Nadu, India"
+Australia,True,-24.7761086,134.755,Australia
+"London, UK",True,51.4893335,-0.1440551,"London, Greater London, England, United Kingdom"
+Ireland,True,52.865196,-7.9794599,Éire / Ireland
+"New York, NY",True,40.7127281,-74.0060152,"City of New York, New York, United States of America"
+"England, United Kingdom",True,52.5310214,-1.2649062,"England, United Kingdom"
+",",False,,,
+Canada,True,61.0666922,-107.991707,Canada
+Global,True,55.702215,12.5592485,"Global Biodiversity Information Facility, Universitetsparken, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 2200, Danmark"
+WORLDWIDE,True,-33.8938107,151.2621478,"Worldwide, 117, Bondi Road, Bondi, Eastern Suburbs, Sydney, Waverley Council, New South Wales, 2026, Australia"
+"Hyderabad, India",True,17.360589,78.4740613,"Hyderabad, Bahadurpura mandal, Hyderabad, Telangana, India"
+USA,True,39.7837304,-100.445882,United States of America
+"Doha, Qatar",True,25.2856329,51.5264162,"الدوحة, قطر"
+"Manila, Philippines",True,14.5904492,120.9803621,"Manila, Capital District, Metro Manila, Philippines"
+"Geneva, Switzerland",True,46.2017559,6.1466014,"Genève, Schweiz/Suisse/Svizzera/Svizra"
+"Washington, DC",True,38.8950368,-77.0365427,"Washington, District of Columbia, United States of America"
+Chennai,True,13.0836939,80.270186,"Chennai Corporation, Chennai, Tamil Nadu, India"
+"Florida, USA",True,27.7567667,-81.4639835,"Florida, United States of America"
+New York,True,40.7127281,-74.0060152,"City of New York, New York, United States of America"
+"Jaipur, India",True,26.9154576,75.8189817,"Jaipur, Jaipur Municipal Corporation, Jaipur Tehsil, Jaipur, Rajasthan, 302001, India"
+#AFRICA #MENA,True,44.1535776,-70.697762,"Africa Trail, Waterford, Oxford County, Maine, 04088, United States of America"
+Pakistan,True,30.3308401,71.247499,پاکستان
+Philippines,True,12.7503486,122.7312101,Philippines
+"Cape Town, South Africa",True,-33.9288301,18.4172197,"Cape Town, City of Cape Town, Western Cape, 8001, South Africa"
+"Melbourne, Australia",True,-37.8142454,144.9631732,"Melbourne, City of Melbourne, Victoria, Australia"
+"Texas, USA",True,31.2638905,-98.5456116,"Texas, United States of America"
+BENGALURU,True,12.9767936,77.590082,"Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+Malaysia,True,4.5693754,102.2656823,Malaysia
+"Abuja, Nigeria",True,9.0643305,7.4892974,"Abuja, Municipal Area Council, Federal Capital Territory, 223140, Nigeria"
+Sri Lanka,True,7.5554942,80.7137847,Sri Lanka
+Bangalore,True,12.9767936,77.590082,"Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+"Bengaluru, India",True,12.9767936,77.590082,"Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+"Atlanta, GA",True,33.7544657,-84.3898151,"Atlanta, Fulton County, Georgia, United States of America"
+"Pretoria, South Africa",True,-25.7459277,28.1879101,"Pretoria, City of Tshwane Metropolitan Municipality, Gauteng, 0142, South Africa"
+"Melbourne, Victoria",True,-37.8142454,144.9631732,"Melbourne, City of Melbourne, Victoria, Australia"
+Nairobi,True,-1.2890006,36.8172812,"Nairobi, Kenya"
+"Beijing, China",True,40.190632,116.412144,"北京市, 中国"
+England,True,52.5310214,-1.2649062,"England, United Kingdom"
+"Dublin City, Ireland",True,53.3493795,-6.2605593,"Dublin, County Dublin, Leinster, Éire / Ireland"
+Africa,True,11.5024338,17.7578122,Afrika / أفريقيا
+"Boston, MA",True,42.3554334,-71.060511,"Boston, Suffolk County, Massachusetts, United States of America"
+"Dhaka, Bangladesh",True,23.7643863,90.3890144,"ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1215, বাংলাদেশ"
+"Guwahati, India",True,26.1805978,91.753943,"Guwahati, Kamrup Metropolitan, Assam, 781015, India"
+"Vancouver, BC",True,49.2608724,-123.113952,"Vancouver, Metro Vancouver Regional District, British Columbia, Canada"
+"Los Angeles, CA",True,34.0536909,-118.242766,"Los Angeles, Los Angeles County, California, United States of America"
+"Global, USA, Chicago",False,,,
+"Glasgow, Scotland",True,55.861155,-4.2501687,"Glasgow, Glasgow City, Alba / Scotland, G2 1AR, United Kingdom"
+"Chicago, IL",True,41.8755616,-87.6244212,"Chicago, South Chicago Township, Cook County, Illinois, United States of America"
+Odisha,True,20.5431241,84.6897321,"Odisha, India"
+"Pune, India",True,18.5213738,73.8545071,"Pune City, Pune, Maharashtra, India"
+Singapore,True,1.357107,103.8194992,Singapore
+mumbai,True,19.054999,72.8692035,"Mumbai, Mumbai Suburban, Maharashtra, India"
+Europe,True,51.0,10.0,Europe
+Brazil,True,-10.3333333,-53.2,Brasil
+Hyderabad,True,17.360589,78.4740613,"Hyderabad, Bahadurpura mandal, Hyderabad, Telangana, India"
+Hong Kong,True,22.350627,114.1849161,"香港 Hong Kong, 中国"
+"New York, US & Delhi, India",False,,,
+"Kerala, India",True,10.3528744,76.5120396,"Kerala, India"
+Qatar,True,25.3336984,51.2295295,قطر
+Earth,True,34.2331373,-102.4107493,"Earth, Lamb County, Texas, United States of America"
+Uganda,True,1.5333554,32.2166578,Uganda
+"Belfast, Northern Ireland",True,54.5975805,-5.9277097,"Belfast, Belfast City District, County Antrim, Northern Ireland / Tuaisceart Éireann, United Kingdom"
+"New Delhi, Delhi",True,28.6419258,77.2217499,"New Delhi, Foot Over Bridge 3, New Delhi Railway Station, Karol Bagh Tehsil, Central Delhi, Delhi, 110055, India"
+"Brussels, Belgium",True,50.8465573,4.351697,"Bruxelles - Brussel, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, België / Belgique / Belgien"
+"New York, USA",True,40.7127281,-74.0060152,"City of New York, New York, United States of America"
+"Noida, India",True,28.5706333,77.3272147,"Noida, Dadri, Gautam Buddha Nagar, Uttar Pradesh, India"
+Text RESIST to 50409,False,,,
+"Kuala Lumpur, Malaysia",True,3.1526589,101.7022205,"Kuala Lumpur, Malaysia"
+"Gujarat, India",True,22.3850051,71.745261,"Gujarat, India"
+"Kampala, Uganda",True,0.3177137,32.5813539,"Kampala Capital City, Kampala, Central Region, Uganda"
+"Bhubaneswar, India",True,20.2602964,85.8394521,"Bhubaneswar, Bhubaneswar Municipal Corporation, Bhubaneswar (M.Corp.), Khordha, Odisha, 751001, India"
+Kenya,True,1.4419683,38.4313975,Kenya
+"South East, England",True,54.9498723,-1.3603654,"Whitburn Church of England Academy, Rackly Way, Whitburn, Sunderland, North East, England, SR6 7EF, United Kingdom"
+Lagos,True,6.4550575,3.3941795,"Lagos, Lagos Island, Lagos, 100242, Nigeria"
+"Islamabad, Pakistan",True,33.6938118,73.0651511,"اسلام آباد, زون 1, وفاقی دارالحکومت اسلام آباد, 44000, پاکستان"
+Scotland,True,56.7861112,-4.1140518,"Alba / Scotland, United Kingdom"
+"Edinburgh, Scotland",True,55.9533456,-3.1883749,"City of Edinburgh, Alba / Scotland, United Kingdom"
+"Brisbane, Queensland",True,-27.4689623,153.0235009,"City of Brisbane, Queensland, Australia"
+"Sydney, Australia",True,-33.8698439,151.2082848,"Sydney, Council of the City of Sydney, New South Wales, Australia"
+"Ahmadabad City, India",True,23.0215374,72.5800568,"Ahmedabad, Gujarat, 380001, India"
+"Berlin, Germany",True,52.5173885,13.3951309,"Berlin, Deutschland"

@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5e5f3497769296320f0a9162394873ed {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5e5f3497769296320f0a9162394873ed" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5e5f3497769296320f0a9162394873ed = L.map(
+                "map_5e5f3497769296320f0a9162394873ed",
+                {
+                    center: [24.719484930298176, 28.733007369605644],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7dbec4cea8cec2de787662fe9de06f82 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7dbec4cea8cec2de787662fe9de06f82.addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+            var circle_marker_80bcd6bf1c244828e0d2efac9e2737fb = L.circleMarker(
+                [22.3511148, 78.6677428],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_ccd8f9feb086c0da36e6c25214b40b1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a27b2096c8a6628825d2b5b890b84748 = $(`<div id="html_a27b2096c8a6628825d2b5b890b84748" style="width: 100.0%; height: 100.0%;">India<br>Disease Tweets: 275</div>`)[0];
+                popup_ccd8f9feb086c0da36e6c25214b40b1d.setContent(html_a27b2096c8a6628825d2b5b890b84748);
+            
+        
+
+        circle_marker_80bcd6bf1c244828e0d2efac9e2737fb.bindPopup(popup_ccd8f9feb086c0da36e6c25214b40b1d)
+        ;
+
+        
+    
+    
+            var circle_marker_9b46d2b1530edee9540f872532379671 = L.circleMarker(
+                [28.6419258, 77.2217499],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.9, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_c065afafd46b0a02d3003459d0b2d77b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_655467e53e97764877e5a5629b1ac0e8 = $(`<div id="html_655467e53e97764877e5a5629b1ac0e8" style="width: 100.0%; height: 100.0%;">New Delhi, India<br>Disease Tweets: 99</div>`)[0];
+                popup_c065afafd46b0a02d3003459d0b2d77b.setContent(html_655467e53e97764877e5a5629b1ac0e8);
+            
+        
+
+        circle_marker_9b46d2b1530edee9540f872532379671.bindPopup(popup_c065afafd46b0a02d3003459d0b2d77b)
+        ;
+
+        
+    
+    
+            var circle_marker_9b6c1842c373554ab86eec80ef65b63b = L.circleMarker(
+                [51.4893335, -0.1440551],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.5, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_2d5c97b77c31f2d350c08f6a942b3d30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92574aad0a0976a018c14def3a10ad90 = $(`<div id="html_92574aad0a0976a018c14def3a10ad90" style="width: 100.0%; height: 100.0%;">London, England<br>Disease Tweets: 95</div>`)[0];
+                popup_2d5c97b77c31f2d350c08f6a942b3d30.setContent(html_92574aad0a0976a018c14def3a10ad90);
+            
+        
+
+        circle_marker_9b6c1842c373554ab86eec80ef65b63b.bindPopup(popup_2d5c97b77c31f2d350c08f6a942b3d30)
+        ;
+
+        
+    
+    
+            var circle_marker_28305dc3a6c199344ee37dea14c11132 = L.circleMarker(
+                [39.7837304, -100.445882],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.4, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_2eaaf2ee399f3e8cbbb25a25dda93a32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9f416b1c906d4b561f457ac7765f6e6 = $(`<div id="html_b9f416b1c906d4b561f457ac7765f6e6" style="width: 100.0%; height: 100.0%;">United States<br>Disease Tweets: 94</div>`)[0];
+                popup_2eaaf2ee399f3e8cbbb25a25dda93a32.setContent(html_b9f416b1c906d4b561f457ac7765f6e6);
+            
+        
+
+        circle_marker_28305dc3a6c199344ee37dea14c11132.bindPopup(popup_2eaaf2ee399f3e8cbbb25a25dda93a32)
+        ;
+
+        
+    
+    
+            var circle_marker_6e0a80e66fb5adf06a79df6070792758 = L.circleMarker(
+                [19.054999, 72.8692035],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_73f5d365ec1a9f08e5d1f5f100df4f6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f546ac34745bf1c07ff31b8022d7f9ca = $(`<div id="html_f546ac34745bf1c07ff31b8022d7f9ca" style="width: 100.0%; height: 100.0%;">Mumbai, India<br>Disease Tweets: 90</div>`)[0];
+                popup_73f5d365ec1a9f08e5d1f5f100df4f6c.setContent(html_f546ac34745bf1c07ff31b8022d7f9ca);
+            
+        
+
+        circle_marker_6e0a80e66fb5adf06a79df6070792758.bindPopup(popup_73f5d365ec1a9f08e5d1f5f100df4f6c)
+        ;
+
+        
+    
+    
+            var circle_marker_3101fb234e698e8340dfbfbb3a6d82d9 = L.circleMarker(
+                [54.7023545, -3.2765753],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_3dcd9cbfa31fc3fcf328b1f5cd4eeb2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63b46c5f4c43373f6211091aac869dd6 = $(`<div id="html_63b46c5f4c43373f6211091aac869dd6" style="width: 100.0%; height: 100.0%;">United Kingdom<br>Disease Tweets: 85</div>`)[0];
+                popup_3dcd9cbfa31fc3fcf328b1f5cd4eeb2e.setContent(html_63b46c5f4c43373f6211091aac869dd6);
+            
+        
+
+        circle_marker_3101fb234e698e8340dfbfbb3a6d82d9.bindPopup(popup_3dcd9cbfa31fc3fcf328b1f5cd4eeb2e)
+        ;
+
+        
+    
+    
+            var circle_marker_5e68c7159bb669c742a70b1df8b56821 = L.circleMarker(
+                [51.5074456, -0.1277653],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_884d230d6612ea5d634fe4608f9797e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ddbc9b3b161a95c7a6f34b36933dd325 = $(`<div id="html_ddbc9b3b161a95c7a6f34b36933dd325" style="width: 100.0%; height: 100.0%;">London<br>Disease Tweets: 82</div>`)[0];
+                popup_884d230d6612ea5d634fe4608f9797e0.setContent(html_ddbc9b3b161a95c7a6f34b36933dd325);
+            
+        
+
+        circle_marker_5e68c7159bb669c742a70b1df8b56821.bindPopup(popup_884d230d6612ea5d634fe4608f9797e0)
+        ;
+
+        
+    
+    
+            var circle_marker_894a99d5798592e326c29ea0844afad9 = L.circleMarker(
+                [20.2602964, 85.8394521],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.4, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_2bb280e4ef3101d670442eed26ae389c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_858e3f7162085e5298b77abc99fb91ab = $(`<div id="html_858e3f7162085e5298b77abc99fb91ab" style="width: 100.0%; height: 100.0%;">Bhubaneshwar, India<br>Disease Tweets: 44</div>`)[0];
+                popup_2bb280e4ef3101d670442eed26ae389c.setContent(html_858e3f7162085e5298b77abc99fb91ab);
+            
+        
+
+        circle_marker_894a99d5798592e326c29ea0844afad9.bindPopup(popup_2bb280e4ef3101d670442eed26ae389c)
+        ;
+
+        
+    
+    
+            var circle_marker_b59160e6bc9a6d9d1c29e40e45411a5d = L.circleMarker(
+                [6.4550575, 3.3941795],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.4, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_4df600821c498f9c9b79af0683f249f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aff7414395ed47b0216d356919ad755f = $(`<div id="html_aff7414395ed47b0216d356919ad755f" style="width: 100.0%; height: 100.0%;">Lagos, Nigeria<br>Disease Tweets: 44</div>`)[0];
+                popup_4df600821c498f9c9b79af0683f249f0.setContent(html_aff7414395ed47b0216d356919ad755f);
+            
+        
+
+        circle_marker_b59160e6bc9a6d9d1c29e40e45411a5d.bindPopup(popup_4df600821c498f9c9b79af0683f249f0)
+        ;
+
+        
+    
+    
+            var circle_marker_2895f22754f90d3eef6ab332df20295d = L.circleMarker(
+                [28.6419258, 77.2217499],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.4, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_9c3e17b64fdd40ba7f83995192adccb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a03dc1e17d0c05122bc62d46453bac4 = $(`<div id="html_2a03dc1e17d0c05122bc62d46453bac4" style="width: 100.0%; height: 100.0%;">New Delhi<br>Disease Tweets: 44</div>`)[0];
+                popup_9c3e17b64fdd40ba7f83995192adccb4.setContent(html_2a03dc1e17d0c05122bc62d46453bac4);
+            
+        
+
+        circle_marker_2895f22754f90d3eef6ab332df20295d.bindPopup(popup_9c3e17b64fdd40ba7f83995192adccb4)
+        ;
+
+        
+    
+    
+            var circle_marker_f0172b158af342d1f0d6554b18d2467e = L.circleMarker(
+                [54.7023545, -3.2765753],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.3, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_83334f0c1cdab380ffa65ad197945fab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2991f91c3ad1493bf6dbc854b850bdd6 = $(`<div id="html_2991f91c3ad1493bf6dbc854b850bdd6" style="width: 100.0%; height: 100.0%;">UK<br>Disease Tweets: 43</div>`)[0];
+                popup_83334f0c1cdab380ffa65ad197945fab.setContent(html_2991f91c3ad1493bf6dbc854b850bdd6);
+            
+        
+
+        circle_marker_f0172b158af342d1f0d6554b18d2467e.bindPopup(popup_83334f0c1cdab380ffa65ad197945fab)
+        ;
+
+        
+    
+    
+            var circle_marker_d7b1cb8932f36b20c7afe1440ac82714 = L.circleMarker(
+                [46.7985624, 8.2319736],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.2, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_d9654e300098e5aca33303003749a0cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e59498e32cfcfd6ad1ec2312f1d8b10f = $(`<div id="html_e59498e32cfcfd6ad1ec2312f1d8b10f" style="width: 100.0%; height: 100.0%;">Switzerland<br>Disease Tweets: 42</div>`)[0];
+                popup_d9654e300098e5aca33303003749a0cf.setContent(html_e59498e32cfcfd6ad1ec2312f1d8b10f);
+            
+        
+
+        circle_marker_d7b1cb8932f36b20c7afe1440ac82714.bindPopup(popup_d9654e300098e5aca33303003749a0cf)
+        ;
+
+        
+    
+    
+            var circle_marker_ce47a0110b2e5eb021c7bb322cb6298a = L.circleMarker(
+                [-33.8938107, 151.2621478],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.1, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_07e1cbfef1e2f9604b3d291888a71f40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf7d03c16c78ee184772b2f1a2ad2f0e = $(`<div id="html_cf7d03c16c78ee184772b2f1a2ad2f0e" style="width: 100.0%; height: 100.0%;">Worldwide<br>Disease Tweets: 41</div>`)[0];
+                popup_07e1cbfef1e2f9604b3d291888a71f40.setContent(html_cf7d03c16c78ee184772b2f1a2ad2f0e);
+            
+        
+
+        circle_marker_ce47a0110b2e5eb021c7bb322cb6298a.bindPopup(popup_07e1cbfef1e2f9604b3d291888a71f40)
+        ;
+
+        
+    
+    
+            var circle_marker_c0ecf281f89e25b95df04d0645a5eacf = L.circleMarker(
+                [-28.8166236, 24.991639],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_9d8d65a2bf669dbbbc6d1835b9e5ba52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fad107e6acc19be9d66561c611f3f6c = $(`<div id="html_9fad107e6acc19be9d66561c611f3f6c" style="width: 100.0%; height: 100.0%;">South Africa<br>Disease Tweets: 40</div>`)[0];
+                popup_9d8d65a2bf669dbbbc6d1835b9e5ba52.setContent(html_9fad107e6acc19be9d66561c611f3f6c);
+            
+        
+
+        circle_marker_c0ecf281f89e25b95df04d0645a5eacf.bindPopup(popup_9d8d65a2bf669dbbbc6d1835b9e5ba52)
+        ;
+
+        
+    
+    
+            var circle_marker_da27f612458840b6e999156164b91e29 = L.circleMarker(
+                [-26.205, 28.049722],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.7, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_63f17686cdef2cd891b7b635ac24eede = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c70e45dded67e22d01e97a103de4f1de = $(`<div id="html_c70e45dded67e22d01e97a103de4f1de" style="width: 100.0%; height: 100.0%;">Johannesburg, South Africa<br>Disease Tweets: 37</div>`)[0];
+                popup_63f17686cdef2cd891b7b635ac24eede.setContent(html_c70e45dded67e22d01e97a103de4f1de);
+            
+        
+
+        circle_marker_da27f612458840b6e999156164b91e29.bindPopup(popup_63f17686cdef2cd891b7b635ac24eede)
+        ;
+
+        
+    
+    
+            var circle_marker_b261d6e6f60e197c7d4d93b533aa79cb = L.circleMarker(
+                [-33.8938107, 151.2621478],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.6, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_66cf0b0907feae7a69859c27cc7459e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb94865268f6a203ad37e7ba61720f03 = $(`<div id="html_eb94865268f6a203ad37e7ba61720f03" style="width: 100.0%; height: 100.0%;">WORLDWIDE<br>Disease Tweets: 36</div>`)[0];
+                popup_66cf0b0907feae7a69859c27cc7459e7.setContent(html_eb94865268f6a203ad37e7ba61720f03);
+            
+        
+
+        circle_marker_b261d6e6f60e197c7d4d93b533aa79cb.bindPopup(popup_66cf0b0907feae7a69859c27cc7459e7)
+        ;
+
+        
+    
+    
+            var circle_marker_66928960cea5c2f281fbd715c6b77e9d = L.circleMarker(
+                [13.0836939, 80.270186],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.5, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_94c360db130ecc91f70793fa5043c67a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a30102aa069167eb5d3fae95c889e0e = $(`<div id="html_2a30102aa069167eb5d3fae95c889e0e" style="width: 100.0%; height: 100.0%;">Chennai, India<br>Disease Tweets: 35</div>`)[0];
+                popup_94c360db130ecc91f70793fa5043c67a.setContent(html_2a30102aa069167eb5d3fae95c889e0e);
+            
+        
+
+        circle_marker_66928960cea5c2f281fbd715c6b77e9d.bindPopup(popup_94c360db130ecc91f70793fa5043c67a)
+        ;
+
+        
+    
+    
+            var circle_marker_7f269c4291ce25cc0d34343cd1a72d70 = L.circleMarker(
+                [9.6000359, 7.9999721],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.3, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_93b4e379b861a50b68dad3427b308415 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b6ae3949006b883e464c30f4b28476d = $(`<div id="html_9b6ae3949006b883e464c30f4b28476d" style="width: 100.0%; height: 100.0%;">Nigeria<br>Disease Tweets: 33</div>`)[0];
+                popup_93b4e379b861a50b68dad3427b308415.setContent(html_9b6ae3949006b883e464c30f4b28476d);
+            
+        
+
+        circle_marker_7f269c4291ce25cc0d34343cd1a72d70.bindPopup(popup_93b4e379b861a50b68dad3427b308415)
+        ;
+
+        
+    
+    
+            var circle_marker_df0d435e564c63040834aaa98b6e748e = L.circleMarker(
+                [61.0666922, -107.991707],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.2, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_ef600f87fa4597a8fa8c766fe5e6611d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_336777a167a4eafe5cca34c58c28872d = $(`<div id="html_336777a167a4eafe5cca34c58c28872d" style="width: 100.0%; height: 100.0%;">Canada<br>Disease Tweets: 32</div>`)[0];
+                popup_ef600f87fa4597a8fa8c766fe5e6611d.setContent(html_336777a167a4eafe5cca34c58c28872d);
+            
+        
+
+        circle_marker_df0d435e564c63040834aaa98b6e748e.bindPopup(popup_ef600f87fa4597a8fa8c766fe5e6611d)
+        ;
+
+        
+    
+    
+            var circle_marker_375b73ef25ede5b90d8c0ca8a035b272 = L.circleMarker(
+                [36.7014631, -118.755997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.2, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_6dd0f895c2ef879e8b7062f7f1bf38d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60d5af7934acef06a5acaa20d57adf89 = $(`<div id="html_60d5af7934acef06a5acaa20d57adf89" style="width: 100.0%; height: 100.0%;">California, USA<br>Disease Tweets: 32</div>`)[0];
+                popup_6dd0f895c2ef879e8b7062f7f1bf38d8.setContent(html_60d5af7934acef06a5acaa20d57adf89);
+            
+        
+
+        circle_marker_375b73ef25ede5b90d8c0ca8a035b272.bindPopup(popup_6dd0f895c2ef879e8b7062f7f1bf38d8)
+        ;
+
+        
+    
+    
+            var circle_marker_dc55003d2cc4dc2436097bf5df9c0a5b = L.circleMarker(
+                [19.054999, 72.8692035],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.1, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_810899550d69cf1db8a2b3ffde9602df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07337ce6074cd0a18a9cc0ca0bce611a = $(`<div id="html_07337ce6074cd0a18a9cc0ca0bce611a" style="width: 100.0%; height: 100.0%;">Mumbai<br>Disease Tweets: 31</div>`)[0];
+                popup_810899550d69cf1db8a2b3ffde9602df.setContent(html_07337ce6074cd0a18a9cc0ca0bce611a);
+            
+        
+
+        circle_marker_dc55003d2cc4dc2436097bf5df9c0a5b.bindPopup(popup_810899550d69cf1db8a2b3ffde9602df)
+        ;
+
+        
+    
+    
+            var circle_marker_610b9f1abc111c979a427e402b2bdc0f = L.circleMarker(
+                [51.4893335, -0.1440551],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.1, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_db32e23ce3dec3888d3e7dc978c63dbe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f08d83015aa966a4f64b86ddf0929f31 = $(`<div id="html_f08d83015aa966a4f64b86ddf0929f31" style="width: 100.0%; height: 100.0%;">London, UK<br>Disease Tweets: 31</div>`)[0];
+                popup_db32e23ce3dec3888d3e7dc978c63dbe.setContent(html_f08d83015aa966a4f64b86ddf0929f31);
+            
+        
+
+        circle_marker_610b9f1abc111c979a427e402b2bdc0f.bindPopup(popup_db32e23ce3dec3888d3e7dc978c63dbe)
+        ;
+
+        
+    
+    
+            var circle_marker_d08cd25e64e5839937133b1b82df8c81 = L.circleMarker(
+                [17.360589, 78.4740613],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.9, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_adcb53f7d1252fa48062f0789ab1694a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97c8291ee6683ecc633579d7a0d221f8 = $(`<div id="html_97c8291ee6683ecc633579d7a0d221f8" style="width: 100.0%; height: 100.0%;">Hyderabad, India<br>Disease Tweets: 29</div>`)[0];
+                popup_adcb53f7d1252fa48062f0789ab1694a.setContent(html_97c8291ee6683ecc633579d7a0d221f8);
+            
+        
+
+        circle_marker_d08cd25e64e5839937133b1b82df8c81.bindPopup(popup_adcb53f7d1252fa48062f0789ab1694a)
+        ;
+
+        
+    
+    
+            var circle_marker_081651aedc580b9c60f93b410b09de7c = L.circleMarker(
+                [-24.7761086, 134.755],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_cb05022a10cd6a8fd2fadbd7d8f37f96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95e32ddf63c3a26826b53c82e6b10ac6 = $(`<div id="html_95e32ddf63c3a26826b53c82e6b10ac6" style="width: 100.0%; height: 100.0%;">Australia<br>Disease Tweets: 28</div>`)[0];
+                popup_cb05022a10cd6a8fd2fadbd7d8f37f96.setContent(html_95e32ddf63c3a26826b53c82e6b10ac6);
+            
+        
+
+        circle_marker_081651aedc580b9c60f93b410b09de7c.bindPopup(popup_cb05022a10cd6a8fd2fadbd7d8f37f96)
+        ;
+
+        
+    
+    
+            var circle_marker_264aac95d120c4403feebdfe044b22b1 = L.circleMarker(
+                [55.702215, 12.5592485],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_bea394c80f49e8081dc11075ceb97879 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c64db86f70d0e5c15145267a393147a = $(`<div id="html_0c64db86f70d0e5c15145267a393147a" style="width: 100.0%; height: 100.0%;">Global<br>Disease Tweets: 28</div>`)[0];
+                popup_bea394c80f49e8081dc11075ceb97879.setContent(html_0c64db86f70d0e5c15145267a393147a);
+            
+        
+
+        circle_marker_264aac95d120c4403feebdfe044b22b1.bindPopup(popup_bea394c80f49e8081dc11075ceb97879)
+        ;
+
+        
+    
+    
+            var circle_marker_7d04ec1a1b1201a4db84dda810d46551 = L.circleMarker(
+                [52.865196, -7.9794599],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.7, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_3a5884f879945540163b7805177a4726 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f944e20de8a84ae12c23b7cfc7750e7b = $(`<div id="html_f944e20de8a84ae12c23b7cfc7750e7b" style="width: 100.0%; height: 100.0%;">Ireland<br>Disease Tweets: 27</div>`)[0];
+                popup_3a5884f879945540163b7805177a4726.setContent(html_f944e20de8a84ae12c23b7cfc7750e7b);
+            
+        
+
+        circle_marker_7d04ec1a1b1201a4db84dda810d46551.bindPopup(popup_3a5884f879945540163b7805177a4726)
+        ;
+
+        
+    
+    
+            var circle_marker_85269ece72c4954eb0d46ff3a929c10e = L.circleMarker(
+                [40.7127281, -74.0060152],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.7, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_486066ea3ca2be677e90f601d2d9d32d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7a3e00376fc3848776a89e6b3710c55 = $(`<div id="html_d7a3e00376fc3848776a89e6b3710c55" style="width: 100.0%; height: 100.0%;">New York, NY<br>Disease Tweets: 27</div>`)[0];
+                popup_486066ea3ca2be677e90f601d2d9d32d.setContent(html_d7a3e00376fc3848776a89e6b3710c55);
+            
+        
+
+        circle_marker_85269ece72c4954eb0d46ff3a929c10e.bindPopup(popup_486066ea3ca2be677e90f601d2d9d32d)
+        ;
+
+        
+    
+    
+            var circle_marker_16f3454e11f029e8457f9908529b8c15 = L.circleMarker(
+                [14.5904492, 120.9803621],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.4, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_0eb33a00af31d139ce10b39839f2b573 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab2701869b81670f406572a2d4141563 = $(`<div id="html_ab2701869b81670f406572a2d4141563" style="width: 100.0%; height: 100.0%;">Manila, Philippines<br>Disease Tweets: 24</div>`)[0];
+                popup_0eb33a00af31d139ce10b39839f2b573.setContent(html_ab2701869b81670f406572a2d4141563);
+            
+        
+
+        circle_marker_16f3454e11f029e8457f9908529b8c15.bindPopup(popup_0eb33a00af31d139ce10b39839f2b573)
+        ;
+
+        
+    
+    
+            var circle_marker_232b8e9930a57ad94f6399ed026d762e = L.circleMarker(
+                [-1.3026148, 36.828842],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.4, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_6c09e972246b055c3d028892567785c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_622aeb4f107c45896ffa50dc22d63970 = $(`<div id="html_622aeb4f107c45896ffa50dc22d63970" style="width: 100.0%; height: 100.0%;">Nairobi, Kenya<br>Disease Tweets: 24</div>`)[0];
+                popup_6c09e972246b055c3d028892567785c0.setContent(html_622aeb4f107c45896ffa50dc22d63970);
+            
+        
+
+        circle_marker_232b8e9930a57ad94f6399ed026d762e.bindPopup(popup_6c09e972246b055c3d028892567785c0)
+        ;
+
+        
+    
+    
+            var circle_marker_ee9a69159c265b4ae4ef0f43c94f3f98 = L.circleMarker(
+                [25.2856329, 51.5264162],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_6ee662beb386c7ad75b10ee093b89675 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e455d015f7001f3f21e83190233ffe6 = $(`<div id="html_6e455d015f7001f3f21e83190233ffe6" style="width: 100.0%; height: 100.0%;">Doha, Qatar<br>Disease Tweets: 22</div>`)[0];
+                popup_6ee662beb386c7ad75b10ee093b89675.setContent(html_6e455d015f7001f3f21e83190233ffe6);
+            
+        
+
+        circle_marker_ee9a69159c265b4ae4ef0f43c94f3f98.bindPopup(popup_6ee662beb386c7ad75b10ee093b89675)
+        ;
+
+        
+    
+    
+            var circle_marker_a23a865b4bb17c2792d637d4b80317fe = L.circleMarker(
+                [44.1535776, -70.697762],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_0a5f14ed2ede0a734edab7693857b8f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d980d18d0a90980dcff52f355ba12c99 = $(`<div id="html_d980d18d0a90980dcff52f355ba12c99" style="width: 100.0%; height: 100.0%;">#AFRICA #MENA<br>Disease Tweets: 22</div>`)[0];
+                popup_0a5f14ed2ede0a734edab7693857b8f4.setContent(html_d980d18d0a90980dcff52f355ba12c99);
+            
+        
+
+        circle_marker_a23a865b4bb17c2792d637d4b80317fe.bindPopup(popup_0a5f14ed2ede0a734edab7693857b8f4)
+        ;
+
+        
+    
+    
+            var circle_marker_d8042899450d4654f90b041c51956737 = L.circleMarker(
+                [46.2017559, 6.1466014],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_fa30b2bbb6cb4d37c9a83442a09a9978 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1dafb5b8c0a4b1199a7fd4e8a25f60ce = $(`<div id="html_1dafb5b8c0a4b1199a7fd4e8a25f60ce" style="width: 100.0%; height: 100.0%;">Geneva, Switzerland<br>Disease Tweets: 22</div>`)[0];
+                popup_fa30b2bbb6cb4d37c9a83442a09a9978.setContent(html_1dafb5b8c0a4b1199a7fd4e8a25f60ce);
+            
+        
+
+        circle_marker_d8042899450d4654f90b041c51956737.bindPopup(popup_fa30b2bbb6cb4d37c9a83442a09a9978)
+        ;
+
+        
+    
+    
+            var circle_marker_74aafe2b7458161c87aca99dbf0757f0 = L.circleMarker(
+                [52.5310214, -1.2649062],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.1, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_05a3b0c7edb408a10e7238fa94f43193 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_afd875691ce966972bb9f77a78d0d7be = $(`<div id="html_afd875691ce966972bb9f77a78d0d7be" style="width: 100.0%; height: 100.0%;">England, United Kingdom<br>Disease Tweets: 21</div>`)[0];
+                popup_05a3b0c7edb408a10e7238fa94f43193.setContent(html_afd875691ce966972bb9f77a78d0d7be);
+            
+        
+
+        circle_marker_74aafe2b7458161c87aca99dbf0757f0.bindPopup(popup_05a3b0c7edb408a10e7238fa94f43193)
+        ;
+
+        
+    
+    
+            var circle_marker_bfafffd54f5ba02a6d603b0ebfdfe517 = L.circleMarker(
+                [38.8950368, -77.0365427],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.1, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_233c13ab1b193ca9fca7bc84a1f761c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96049795997fcda5301d8ab5eed7a384 = $(`<div id="html_96049795997fcda5301d8ab5eed7a384" style="width: 100.0%; height: 100.0%;">Washington, DC<br>Disease Tweets: 21</div>`)[0];
+                popup_233c13ab1b193ca9fca7bc84a1f761c8.setContent(html_96049795997fcda5301d8ab5eed7a384);
+            
+        
+
+        circle_marker_bfafffd54f5ba02a6d603b0ebfdfe517.bindPopup(popup_233c13ab1b193ca9fca7bc84a1f761c8)
+        ;
+
+        
+    
+    
+            var circle_marker_a2f3f2a93d307d128b24b4657027b660 = L.circleMarker(
+                [27.7567667, -81.4639835],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.1, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_d3d6d065139857f3ca65d8cd7304feee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0d3415651a5698362bd50ba6a6d7060 = $(`<div id="html_e0d3415651a5698362bd50ba6a6d7060" style="width: 100.0%; height: 100.0%;">Florida, USA<br>Disease Tweets: 21</div>`)[0];
+                popup_d3d6d065139857f3ca65d8cd7304feee.setContent(html_e0d3415651a5698362bd50ba6a6d7060);
+            
+        
+
+        circle_marker_a2f3f2a93d307d128b24b4657027b660.bindPopup(popup_d3d6d065139857f3ca65d8cd7304feee)
+        ;
+
+        
+    
+    
+            var circle_marker_91a3f1425de8e82503e7831f40753229 = L.circleMarker(
+                [39.7837304, -100.445882],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_818c67b0c0ec6d71968143c0288aaad5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_782423391e9f82038e946c70865387c3 = $(`<div id="html_782423391e9f82038e946c70865387c3" style="width: 100.0%; height: 100.0%;">USA<br>Disease Tweets: 20</div>`)[0];
+                popup_818c67b0c0ec6d71968143c0288aaad5.setContent(html_782423391e9f82038e946c70865387c3);
+            
+        
+
+        circle_marker_91a3f1425de8e82503e7831f40753229.bindPopup(popup_818c67b0c0ec6d71968143c0288aaad5)
+        ;
+
+        
+    
+    
+            var circle_marker_eac584b1aa7387c8ad07feb6888c3fc2 = L.circleMarker(
+                [26.9154576, 75.8189817],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_eb37f12b13e90657b15fe3c3f810e031 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b77797498e391db0a50d6530851c1f3 = $(`<div id="html_8b77797498e391db0a50d6530851c1f3" style="width: 100.0%; height: 100.0%;">Jaipur, India<br>Disease Tweets: 20</div>`)[0];
+                popup_eb37f12b13e90657b15fe3c3f810e031.setContent(html_8b77797498e391db0a50d6530851c1f3);
+            
+        
+
+        circle_marker_eac584b1aa7387c8ad07feb6888c3fc2.bindPopup(popup_eb37f12b13e90657b15fe3c3f810e031)
+        ;
+
+        
+    
+    
+            var circle_marker_bfb23f872e912ad40b51bb79c7813061 = L.circleMarker(
+                [-37.8142454, 144.9631732],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_8b2e88b1ade63f1ea3a71524289e705c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9789fc8d94ba6c88f9714a27b0e3238a = $(`<div id="html_9789fc8d94ba6c88f9714a27b0e3238a" style="width: 100.0%; height: 100.0%;">Melbourne, Australia<br>Disease Tweets: 18</div>`)[0];
+                popup_8b2e88b1ade63f1ea3a71524289e705c.setContent(html_9789fc8d94ba6c88f9714a27b0e3238a);
+            
+        
+
+        circle_marker_bfb23f872e912ad40b51bb79c7813061.bindPopup(popup_8b2e88b1ade63f1ea3a71524289e705c)
+        ;
+
+        
+    
+    
+            var circle_marker_57c4184d2e6576b24e9b1e1c9062dd94 = L.circleMarker(
+                [40.7127281, -74.0060152],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_ed327754ca88f47d61b65d1eaed0c07e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b841220835b9f9c3df07c3a280e5ef6 = $(`<div id="html_1b841220835b9f9c3df07c3a280e5ef6" style="width: 100.0%; height: 100.0%;">New York<br>Disease Tweets: 18</div>`)[0];
+                popup_ed327754ca88f47d61b65d1eaed0c07e.setContent(html_1b841220835b9f9c3df07c3a280e5ef6);
+            
+        
+
+        circle_marker_57c4184d2e6576b24e9b1e1c9062dd94.bindPopup(popup_ed327754ca88f47d61b65d1eaed0c07e)
+        ;
+
+        
+    
+    
+            var circle_marker_9f9099797516b5615eff7207b3ef3586 = L.circleMarker(
+                [12.7503486, 122.7312101],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.7, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_1f0c06193e3bc7da92dcf0ab8b60e3c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98c0263f688f54c993842ec21e8f4cb2 = $(`<div id="html_98c0263f688f54c993842ec21e8f4cb2" style="width: 100.0%; height: 100.0%;">Philippines<br>Disease Tweets: 17</div>`)[0];
+                popup_1f0c06193e3bc7da92dcf0ab8b60e3c7.setContent(html_98c0263f688f54c993842ec21e8f4cb2);
+            
+        
+
+        circle_marker_9f9099797516b5615eff7207b3ef3586.bindPopup(popup_1f0c06193e3bc7da92dcf0ab8b60e3c7)
+        ;
+
+        
+    
+    
+            var circle_marker_50ac693908ffa1ee89be3b9574afdc44 = L.circleMarker(
+                [12.9767936, 77.590082],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.6, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_0f90bd8bdba540c75b44637932b78e44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44f363959272bd7a6069442a22f90427 = $(`<div id="html_44f363959272bd7a6069442a22f90427" style="width: 100.0%; height: 100.0%;">BENGALURU<br>Disease Tweets: 16</div>`)[0];
+                popup_0f90bd8bdba540c75b44637932b78e44.setContent(html_44f363959272bd7a6069442a22f90427);
+            
+        
+
+        circle_marker_50ac693908ffa1ee89be3b9574afdc44.bindPopup(popup_0f90bd8bdba540c75b44637932b78e44)
+        ;
+
+        
+    
+    
+            var circle_marker_43e41333c988e1efaead202846b175e5 = L.circleMarker(
+                [-33.9288301, 18.4172197],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.6, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_d86591a4f7b5f1eee07e8854ec814866 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_824dcb816acbee8ef2c75bfb7742b979 = $(`<div id="html_824dcb816acbee8ef2c75bfb7742b979" style="width: 100.0%; height: 100.0%;">Cape Town, South Africa<br>Disease Tweets: 16</div>`)[0];
+                popup_d86591a4f7b5f1eee07e8854ec814866.setContent(html_824dcb816acbee8ef2c75bfb7742b979);
+            
+        
+
+        circle_marker_43e41333c988e1efaead202846b175e5.bindPopup(popup_d86591a4f7b5f1eee07e8854ec814866)
+        ;
+
+        
+    
+    
+            var circle_marker_a5182c252ab44091f6086d98267329b1 = L.circleMarker(
+                [-25.7459277, 28.1879101],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_6747e8d619cc78aa177fed7b0512736a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fad36d6fe9a3ad10be982d83d33b9fa3 = $(`<div id="html_fad36d6fe9a3ad10be982d83d33b9fa3" style="width: 100.0%; height: 100.0%;">Pretoria, South Africa<br>Disease Tweets: 15</div>`)[0];
+                popup_6747e8d619cc78aa177fed7b0512736a.setContent(html_fad36d6fe9a3ad10be982d83d33b9fa3);
+            
+        
+
+        circle_marker_a5182c252ab44091f6086d98267329b1.bindPopup(popup_6747e8d619cc78aa177fed7b0512736a)
+        ;
+
+        
+    
+    
+            var circle_marker_f868c8dcaaa5c64e98801803682cea1a = L.circleMarker(
+                [40.190632, 116.412144],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_a1022b1ef2b2c00231bacbaa9c9fc38b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74600e0f02d1c8a5638741b14ef552f5 = $(`<div id="html_74600e0f02d1c8a5638741b14ef552f5" style="width: 100.0%; height: 100.0%;">Beijing, China<br>Disease Tweets: 15</div>`)[0];
+                popup_a1022b1ef2b2c00231bacbaa9c9fc38b.setContent(html_74600e0f02d1c8a5638741b14ef552f5);
+            
+        
+
+        circle_marker_f868c8dcaaa5c64e98801803682cea1a.bindPopup(popup_a1022b1ef2b2c00231bacbaa9c9fc38b)
+        ;
+
+        
+    
+    
+            var circle_marker_757760d40248580d6961ebd5b1fb06ce = L.circleMarker(
+                [33.7544657, -84.3898151],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.4, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_345f274e47a649b5f55ebc213de660fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b89d0335d9eba99668c0ed48575e2730 = $(`<div id="html_b89d0335d9eba99668c0ed48575e2730" style="width: 100.0%; height: 100.0%;">Atlanta, GA<br>Disease Tweets: 14</div>`)[0];
+                popup_345f274e47a649b5f55ebc213de660fe.setContent(html_b89d0335d9eba99668c0ed48575e2730);
+            
+        
+
+        circle_marker_757760d40248580d6961ebd5b1fb06ce.bindPopup(popup_345f274e47a649b5f55ebc213de660fe)
+        ;
+
+        
+    
+    
+            var circle_marker_602e305761a7dec798b9c5e1887106c2 = L.circleMarker(
+                [30.3308401, 71.247499],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.4, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_65580ff34aec5a2071518e79b24965cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87d856f309a4bcc64351d632ea26e972 = $(`<div id="html_87d856f309a4bcc64351d632ea26e972" style="width: 100.0%; height: 100.0%;">Pakistan<br>Disease Tweets: 14</div>`)[0];
+                popup_65580ff34aec5a2071518e79b24965cd.setContent(html_87d856f309a4bcc64351d632ea26e972);
+            
+        
+
+        circle_marker_602e305761a7dec798b9c5e1887106c2.bindPopup(popup_65580ff34aec5a2071518e79b24965cd)
+        ;
+
+        
+    
+    
+            var circle_marker_462f1d66da650dff741ca0e9f5db0586 = L.circleMarker(
+                [20.5431241, 84.6897321],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.4, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_8f12983ff1eea9df28ad4cb876badb6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e61f9d5ae1479d3f938432b2bc7f7dfa = $(`<div id="html_e61f9d5ae1479d3f938432b2bc7f7dfa" style="width: 100.0%; height: 100.0%;">Odisha<br>Disease Tweets: 14</div>`)[0];
+                popup_8f12983ff1eea9df28ad4cb876badb6d.setContent(html_e61f9d5ae1479d3f938432b2bc7f7dfa);
+            
+        
+
+        circle_marker_462f1d66da650dff741ca0e9f5db0586.bindPopup(popup_8f12983ff1eea9df28ad4cb876badb6d)
+        ;
+
+        
+    
+    
+            var circle_marker_14f8fc1ae015c5caafb3adc61f4cc3dd = L.circleMarker(
+                [31.2638905, -98.5456116],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.4, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_2cd0c44b76de28256b231a22f2d110d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f86fbe2a5b059737f5c68e5147b1b258 = $(`<div id="html_f86fbe2a5b059737f5c68e5147b1b258" style="width: 100.0%; height: 100.0%;">Texas, USA<br>Disease Tweets: 14</div>`)[0];
+                popup_2cd0c44b76de28256b231a22f2d110d5.setContent(html_f86fbe2a5b059737f5c68e5147b1b258);
+            
+        
+
+        circle_marker_14f8fc1ae015c5caafb3adc61f4cc3dd.bindPopup(popup_2cd0c44b76de28256b231a22f2d110d5)
+        ;
+
+        
+    
+    
+            var circle_marker_1c32356b367fa78b568a1ed636d054e5 = L.circleMarker(
+                [12.9767936, 77.590082],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.3, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_5f18a8659e9c4a2603e12d3e7443717e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_624851504fdf0885f5c8c97e9b868e98 = $(`<div id="html_624851504fdf0885f5c8c97e9b868e98" style="width: 100.0%; height: 100.0%;">Bangalore<br>Disease Tweets: 13</div>`)[0];
+                popup_5f18a8659e9c4a2603e12d3e7443717e.setContent(html_624851504fdf0885f5c8c97e9b868e98);
+            
+        
+
+        circle_marker_1c32356b367fa78b568a1ed636d054e5.bindPopup(popup_5f18a8659e9c4a2603e12d3e7443717e)
+        ;
+
+        
+    
+    
+            var circle_marker_cf1b6e752bcd624c2e004fa7a935f00f = L.circleMarker(
+                [9.0643305, 7.4892974],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.3, "stroke": true, "weight": 3}
+            ).addTo(map_5e5f3497769296320f0a9162394873ed);
+        
+    
+        var popup_c75d7905c172746398fc98f31c00bf45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d6ea2647ae0b98d62c0b760d7aeac29 = $(`<div id="html_8d6ea2647ae0b98d62c0b760d7aeac29" style="width: 100.0%; height: 100.0%;">Abuja, Nigeria<br>Disease Tweets: 13</div>`)[0];
+                popup_c75d7905c172746398fc98f31c00bf45.setContent(html_8d6ea2647ae0b98d62c0b760d7aeac29);
+            
+        
+
+        circle_marker_cf1b6e752bcd624c2e004fa7a935f00f.bindPopup(popup_c75d7905c172746398fc98f31c00bf45)
+        ;
+
+        
+    
+</script>
+</html>

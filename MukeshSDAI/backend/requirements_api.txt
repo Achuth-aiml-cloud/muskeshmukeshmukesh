@@ -1,0 +1,6 @@
+# Flask API Requirements
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Already have these from main requirements.txt:
+# pandas, numpy, torch, transformers, scikit-learn, pickle
